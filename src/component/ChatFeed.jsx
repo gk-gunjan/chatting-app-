@@ -14,7 +14,7 @@ const ChatFeed =(props)=>{
         //key here is to get specific key to the messages.
         //console.log(keys);
 
-        //rendering our messages
+        //rendering odsvsur messages
         return keys.map((key,index)=>{
             const message =messages[key]; //dynamically take key message with value key we want to loop over them.
             const lastMessageKey =index===0 ? null :keys[index-1];//basically here if there are message then find the last message.
