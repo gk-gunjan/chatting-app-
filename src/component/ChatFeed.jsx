@@ -41,7 +41,12 @@ const ChatFeed =(props)=>{
     renderMessages();
 
     return (
-        <div className>
+        <div className="chat-feed">
+            <div className="chat-title-container">
+                <div className="chat-title">
+                    {chat?.title}                   
+                </div>
+            </div>
             
             
         </div>
