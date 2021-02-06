@@ -9,7 +9,9 @@ const ChatFeed =(props)=>{
 
     //console.log(chat,userName,messages);//check if everything comes up nicely  to our console log
 
-    
+    const renderReadReceipts =(message,isMyMessage)=>{
+        
+    }
 
     const renderMessages =()=>{
         const keys =Object.keys(messages);
