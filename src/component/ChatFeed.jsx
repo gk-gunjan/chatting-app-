@@ -9,6 +9,8 @@ const ChatFeed =(props)=>{
 
     //console.log(chat,userName,messages);//check if everything comes up nicely  to our console log
 
+    
+
     const renderMessages =()=>{
         const keys =Object.keys(messages);
         //key here is to get specific key to the messages.
