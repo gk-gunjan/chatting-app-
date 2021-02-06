@@ -33,9 +33,13 @@ const MessageForm =(props)=> {
             />
             <label htmlFor="upload-button">
                 <span className="image-button">
+                    <PictureOutlined className="picture-icon" />
 
                 </span>
             </label>
+            <input 
+                
+            />
 
         </form>
 
